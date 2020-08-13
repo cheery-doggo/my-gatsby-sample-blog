@@ -13,7 +13,7 @@ export default function Home({ data }) {
     <SEO
       pagetitle="ESSENTIALSについて"
       pagedesc="食べ物についての情報を発進しているサイトです。"
-      pagepath={window.location.pathname}
+      pagepath={location.pathname}
       pageimg={data.about.childImageSharp.original.src}
       pageimgw={data.about.childImageSharp.original.width}
       pageimgh={data.about.childImageSharp.original.height}
