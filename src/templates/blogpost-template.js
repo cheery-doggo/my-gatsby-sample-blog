@@ -47,7 +47,7 @@ export default ({ data, pageContext, location }) => (
         data.contentfulBlogPost.content.json
       ).slice(0, 70)}...`}
       pagepath={location.pathname}
-      pageimg={`https:${data.contentfulBlogPost.eyecatch.file.url}`}
+      blogimg={`https:${data.contentfulBlogPost.eyecatch.file.url}`}
       pageimgw={data.contentfulBlogPost.eyecatch.file.details.image.width}
       pageimgw={data.contentfulBlogPost.eyecatch.file.details.image.height}
     />
